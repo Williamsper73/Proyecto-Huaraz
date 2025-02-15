@@ -1,0 +1,129 @@
+/* Reset y estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #003366;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Contenido principal */
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #003366;
+}
+
+/* Sección de reseñas */
+.reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.review {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.review:hover {
+    transform: scale(1.02);
+    background-color: #f1f1f1;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info h3 {
+    font-size: 1.4em;
+    color: #003366;
+    margin-bottom: 5px;
+}
+
+.rating {
+    font-size: 1.2em;
+    color: #ffcc00;
+}
+
+.star {
+    margin-right: 2px;
+}
+
+.review-comment {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #003366;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+footer:hover {
+    background-color: #004080; /* Cambio de color al pasar el mouse */
+}
+
+
+/* Efectos dinámicos */
+.review:hover .profile-img {
+    transform: rotate(10deg);
+    transition: transform 0.3s ease;
+}

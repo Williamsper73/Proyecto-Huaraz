@@ -1,0 +1,200 @@
+/* Reinicio de estilo basico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general de body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;  /* Fondo suave y claro para toda la página */
+    color: #333;
+    line-height: 1.6;
+    transition: background-color 0.3s ease;
+}
+
+/* Header */
+header {
+    background-color: #003366; /* Fondo oscuro para el header */
+    padding: 15px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+header:hover {
+    background-color: #004080;  /* Cambio de color al pasar el mouse */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6600;  /* Cambio de color en hover */
+}
+
+/* Contenido Main */
+main {
+    padding: 40px 20px;
+}
+
+/* Section styles for "Quiénes Somos", "Misión", "Visión", "Valores" */
+
+/* "Quiénes Somos" */
+.quienes-somos {
+    background-color: #ffffff; /* Fondo blanco para resaltar el contenido */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.quienes-somos:hover {
+    transform: scale(1.02); /* Efecto de agrandar */
+    background-color: #f9f9f9; /* Cambio de fondo al pasar el mouse */
+}
+
+.quienes-somos h1 {
+    font-size: 2.5em;
+    color: #003366;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+.quienes-somos h1:hover {
+    color: #ff6600;  /* Color que cambia al pasar el mouse */
+}
+
+.quienes-somos p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* "Misión" section */
+.mision {
+    background-color: #e3f2fd; /* Fondo azul claro */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.mision:hover {
+    transform: scale(1.02);  /* Efecto de agrandar */
+    background-color: #bbdefb; /* Cambio de fondo al pasar el mouse */
+}
+
+.mision h2 {
+    font-size: 2.2em;
+    color: #003366;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+.mision h2:hover {
+    color: #ff6600;  /* Cambio de color en el título */
+}
+
+.mision p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* "Visión" section */
+.vision {
+    background-color: #c8e6c9; /* Fondo verde claro */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.vision:hover {
+    transform: scale(1.02);  /* Efecto de agrandar */
+    background-color: #a5d6a7; /* Cambio de fondo al pasar el mouse */
+}
+
+.vision h2 {
+    font-size: 2.2em;
+    color: #003366;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+.vision h2:hover {
+    color: #ff6600;  /* Cambio de color en el título */
+}
+
+.vision p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* "Valores" section */
+.valores {
+    background-color: #fff3e0; /* Fondo naranja suave */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.valores:hover {
+    transform: scale(1.02);  /* Efecto de agrandar */
+    background-color: #ffe0b2; /* Cambio de fondo al pasar el mouse */
+}
+
+.valores h2 {
+    font-size: 2.2em;
+    color: #003366;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+.valores h2:hover {
+    color: #ff6600;  /* Cambio de color en el título */
+}
+
+.valores p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.valores ul {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 10px;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #003366;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+footer:hover {
+    background-color: #004080; /* Cambio de color al pasar el mouse */
+}
