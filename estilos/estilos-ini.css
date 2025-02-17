@@ -8,46 +8,6 @@ body {
     background-color: #2f7a59;
 }
 
-.logo {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
-    color: #ffc107;
-    padding: 10px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo img {
-    width: 100px;
-    padding: 10px;
-}
-
-.nand {
-    background-color: #006414;
-}
-
-.enlaces {
-    background-color: #ffc107;
-}
-
-
-.nav-item a {
-    color: #2f7a59;
-    font-weight: 800;
-    font-size: 24px;
-    padding: 10px;
-}
-
-.nav-item a:hover {
-    background-color: #2f7a59;
-    padding: 10px;
-    border-radius: 5px;
-    color: #ffc107;
-}
-
 h2 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
