@@ -1,0 +1,163 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 234, 231); /* Fondo de la página */
+}
+
+header {
+    color: #333; /* Sin fondo oscuro */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Sección de contenido principal (textos) */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.imagen-principal {
+    width: 100%;
+    text-align: center; /* Centrar la imagen principal */
+    margin-bottom: 20px;
+}
+
+.imagen-principal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-wrapper {
+    flex: 1;
+    max-width: 60%; /* Ancho del texto */
+    padding-right: 20px;
+}
+
+.text-wrapper h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #2f7a59; /* Nuevo color para los títulos */
+    font-weight: bold; /* Negritas solo en títulos */
+}
+
+.text-wrapper p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.text-wrapper ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.text-wrapper ul li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Dos imágenes a la derecha */
+.image-container {
+    flex: 1;
+    max-width: 35%; /* Ancho de las imágenes a la derecha */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Formulario de reservas */
+.reservations {
+    flex: 1;
+    max-width: 100%; /* Ocupa todo el ancho disponible */
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reservations h2 {
+    font-size: 20px; /* Reducir el tamaño del título */
+    margin-bottom: 10px;
+    color: #2f7a59; /* Nuevo color para los títulos */
+    font-weight: bold; /* Negritas solo en títulos */
+}
+
+.reservations form {
+    display: flex;
+    flex-direction: column;
+}
+
+.reservations label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.reservations input, .reservations textarea {
+    margin-bottom: 10px; /* Reducir el margen inferior */
+    padding: 8px; /* Reducir el padding */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px; /* Reducir el tamaño de la fuente */
+}
+
+.reservations button {
+    padding: 8px; /* Reducir el padding */
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px; /* Reducir el tamaño de la fuente */
+}
+
+.reservations button:hover {
+    background-color: #555;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px; /* Espacio antes del footer */
+}
+
+footer #btn-subir {
+    background-color: #c59d27;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer #btn-subir:hover {
+    background-color: #b38a1f;
+}
