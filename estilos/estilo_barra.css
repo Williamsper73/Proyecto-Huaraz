@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    padding-top: 200px; 
+}
+
 nav ul li {
     margin: 0 20px;
 }
@@ -32,7 +37,6 @@ nav ul li {
     background-color: #ffc107;
 }
 
-
 .nav-item a {
     color: #2f7a59;
     font-weight: 800;
@@ -45,6 +49,14 @@ nav ul li {
     padding: 10px;
     border-radius: 5px;
     color: #ffc107;
+}
+/* Navbar fijo en la parte superior */
+.cabezeras {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
 }
 
 .footer {
