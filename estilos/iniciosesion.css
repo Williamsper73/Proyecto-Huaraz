@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.form{
+    padding-top: 100px; 
+    background-color: #ffc107;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #ffc107;
+}
+.cuerpo{
+    padding: 138.5px 33.3%;
+    color: darkgreen;
+    font-weight: bold;
+}
