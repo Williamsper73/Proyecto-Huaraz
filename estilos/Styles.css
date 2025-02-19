@@ -167,6 +167,7 @@ main {
     color: #003366;
     margin-bottom: 20px;
     transition: color 0.3s ease;
+    text-align: center;
 }
 
 .valores h2:hover {
@@ -186,15 +187,16 @@ main {
     list-style-type: disc;
 }
 
-/* Footer */
-footer {
+.about{
     text-align: center;
-    padding: 15px;
-    background-color: #003366;
-    color: white;
-    transition: background-color 0.3s ease;
+    padding-bottom: 50px;
+}
+.about img{
+    border-radius: 10px;
 }
 
-footer:hover {
-    background-color: #004080; /* Cambio de color al pasar el mouse */
+.col .ti{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
 }
